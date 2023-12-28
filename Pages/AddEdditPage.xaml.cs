@@ -36,11 +36,7 @@ namespace TechnoServis.Pages
             DataContext= newRequest;
             StatusCB.ItemsSource = AppEntities.GetContext().Status.ToList();
 
-            
-
             DataCB.Text = DateTime.Now.ToString();
-
-
 
 
         }
